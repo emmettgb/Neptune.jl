@@ -239,11 +239,11 @@ function run(session::ServerSession)
         println("Go to $address in your browser to start writing ~ have fun!")
     end
     println()
-    println("Press Ctrl+C in this terminal to stop Pluto")
+    println("Press Ctrl+C in this terminal to stop Neptune")
     println()
 
     shutdown_server[] = () -> @sync begin
-        println("\n\nClosing Pluto... Restart Julia for a fresh session. \n\nHave a nice day! 🎈")
+        println("\n\nClosing Neptune... Restart Julia for a fresh session. \n\nHave a nice day! 🎈")
         @async swallow_exception(() -> close(serversocket), Base.IOError)
         # TODO: HTTP has a kill signal?
         # TODO: put do_work tokens back 

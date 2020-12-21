@@ -977,8 +977,8 @@ export class Editor extends Component {
                     onClose=${() => this.setState({ export_menu_open: false })}
                 />
                 <nav id="at_the_top">
-                    <a href="./">
-                        <h1><img id="logo-big" src="img/logo.svg" alt="Pluto.jl" /><img id="logo-small" src="img/favicon_unsaturated.svg" /></h1>
+                    <a>
+                        <h1>♆ Neptune.jl ♆</h1>
                     </a>
                     <${FilePicker}
                         client=${this.client}
