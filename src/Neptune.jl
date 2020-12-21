@@ -53,6 +53,9 @@ include("./webserver/WebServer.jl")
 if get(ENV, "JULIA_PLUTO_SHOW_BANNER", "1") !== "0"
 @info """\n
     Welcome to Neptune $(PLUTO_VERSION_STR) 🎈
+
+    Neptune - inspired by Jupyter, Powered by Pluto
+    
     Start a notebook server using:
 
   julia> Neptune.run()

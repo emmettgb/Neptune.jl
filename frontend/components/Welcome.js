@@ -193,11 +193,11 @@ export class Welcome extends Component {
                     }
                     console.log(`Newer version ${remote} is available`)
                     alert(
-                        "A new version of Pluto.jl is available! 🎉\n\n    You have " +
+                        "A new version of Neptune.jl is available! 🎉\n\n    You have " +
                             local +
                             ", the latest is " +
                             remote +
-                            '.\n\nYou can update Pluto.jl using the julia package manager:\n\nimport Pkg; Pkg.update("Pluto")\n\nAfterwards, exit Pluto.jl and restart julia.'
+                            '.\n\nYou can update Neptune.jl using the julia package manager:\n\nimport Pkg; Pkg.update("Neptune")\n\nAfterwards, exit Neptune.jl and restart Julia.'
                     )
                 }
             })

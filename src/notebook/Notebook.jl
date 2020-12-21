@@ -47,7 +47,7 @@ end
 
 
 
-const _notebook_header = "### A Pluto.jl notebook ###"
+const _notebook_header = "### A Neptune.jl notebook ###"
 # We use a creative delimiter to avoid accidental use in code
 # so don't get inspired to suddenly use these in your code!
 const _cell_id_delimiter = "# ╔═╡ "
