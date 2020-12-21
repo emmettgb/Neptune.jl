@@ -1,12 +1,9 @@
-> _Interested in learning Julia, Pluto and applied maths?_ Join the **open MIT course** taught by **Alan Edelman**, **David P. Sanders**, Grant Sanderson (**3blue1brown**) & James Schloss (**LeiosOS**) (_and a bit of me_): [Introduction to Computational Thinking](https://mitmath.github.io/18S191/Fall20/), fall 2020.
-> <br>
 
-<p align="center"><a href="https://www.youtube.com/watch?v=IAF8DjrQSSk">🎈 Pluto presentation (20 min) at <b>Juliacon 2020</b> 🎈</a></p>
 
 <br>
 <br>
 
-#<h1><img alt="Pluto.jl" src="https://raw.githubusercontent.com/fonsp/Pluto.jl/master/frontend/img/logo.svg" width=300 height=74 ></h1>
+### Neptune
 
 _Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
 
