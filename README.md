@@ -6,14 +6,13 @@
 <br>
 <br>
 
-<h1><img alt="Pluto.jl" src="https://raw.githubusercontent.com/fonsp/Pluto.jl/master/frontend/img/logo.svg" width=300 height=74 ></h1>
+#<h1><img alt="Pluto.jl" src="https://raw.githubusercontent.com/fonsp/Pluto.jl/master/frontend/img/logo.svg" width=300 height=74 ></h1>
 
-_Writing a notebook is not just about writing the final document — Pluto empowers the experiments and discoveries that are essential to getting there._
+_Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
 
 **Explore models and share results** in a notebook that is
 
--   **_reactive_** - when changing a function or variable, Pluto automatically updates all affected cells.
--   **_lightweight_** - Pluto is written in pure Julia and is easy to install.
+-   **_lightweight_** - Neptune is based on the package Pluto. Both are written in pure Julia and is easy to install.
 -   **_simple_** - no hidden workspace state; friendly UI.
 
 <img alt="reactivity screencap" src="https://raw.githubusercontent.com/fonsp/Pluto.jl/580ab811f13d565cc81ebfa70ed36c84b125f55d/demo/plutodemo.gif" >
@@ -21,24 +20,15 @@ _Writing a notebook is not just about writing the final document — Pluto empow
 
 ### Input
 
-A Pluto notebook is made up of small blocks of Julia code (_cells_) and together they form a [**_reactive_** notebook](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0).
-When you change a variable, Pluto automatically re-runs the cells that refer to it. Cells can even be placed in arbitrary order - intelligent syntax analysis figures out the dependencies between them and takes care of execution.
+A Pluto notebook is made up of small blocks of Julia code (_cells_) and together they form a notebook.
 
-Cells can contain _arbitrary_ Julia code, and you can use external libraries. There are no code rewrites or wrappers, Pluto just looks at your code once before evaluation.
+Notebook cells can contain _arbitrary_ Julia code, and you can use external libraries. There are no code rewrites or wrappers, Neptune just looks at your code once before evaluation.
 
 ### Output
 
-Your notebooks are **saved as pure Julia files** ([sample](https://github.com/fonsp/Pluto.jl/blob/master/sample/Basic.jl)), which you can then import as if you had been programming in a regular editor all along. You can also export your notebook with cell outputs as attractive HTML and PDF documents. By reordering cells and hiding code, you have full control over how you tell your story.
+Like in Pluto, your notebooks are **saved as pure Julia files** ([sample](https://github.com/fonsp/Pluto.jl/blob/master/sample/Basic.jl)), which you can then import as if you had been programming in a regular editor all along. You can also export your notebook with cell outputs as attractive HTML and PDF documents. By reordering cells and hiding code, you have full control over how you tell your story.
 
 <br >
-
-## Dynamic environment
-
-Pluto offers an environment where changed code takes effect instantly and where deleted code leaves no trace.
-Unlike Jupyter or Matlab, there is **no mutable workspace**, but rather, an important guarantee:
-
-<blockquote align="center"><em><b>At any instant</b>, the program state is <b>completely described</b> by the code you see.</em></blockquote>
-No hidden state, no hidden bugs.
 
 ### Interactivity
 
@@ -48,21 +38,7 @@ In the example below, changing the parameter `A` and running the first cell will
 
 <img alt="plotting screencap" src="https://user-images.githubusercontent.com/6933510/80637344-24ac0180-8a5f-11ea-82dd-813dbceca9c9.gif" width="50%">
 
-<br >
 
-### HTML interaction
-
-Lastly, here's _**one more feature**_: Pluto notebooks have a `@bind` macro to create a **live bond between an HTML object and a Julia variable**. Combined with reactivity, this is a very powerful tool!
-
-<img alt="@bind macro screencap" src="https://user-images.githubusercontent.com/6933510/80617037-e2c09280-8a41-11ea-9fb3-18bb2921dd9e.gif" width="70%">
-
-_notebook from [vdplasthijs/julia_sir](https://github.com/vdplasthijs/julia_sir)_
-
-<br >
-
-You don't need to know HTML to use it! The [PlutoUI package](https://github.com/fonsp/PlutoUI.jl) contains basic inputs like sliders and buttons.
-
-But for those who want to dive deeper - you can use HTML, JavaScript and CSS to write your own widgets! Custom update events can be fired by dispatching a `new CustomEvent("input")`, making it compatible with the [`viewof` operator of observablehq](https://observablehq.com/@observablehq/a-brief-introduction-to-viewof). Have a look at the sample notebooks inside Pluto to learn more!
 
 <br >
 <hr >
