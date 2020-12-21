@@ -12,12 +12,10 @@ _Writing a notebook is not just about writing the final document — Neptune emp
 -   **_lightweight_** - Neptune is based on the package Pluto. Both are written in pure Julia and is easy to install.
 -   **_simple_** - no hidden workspace state; friendly UI.
 
-<img alt="reactivity screencap" src="https://raw.githubusercontent.com/fonsp/Pluto.jl/580ab811f13d565cc81ebfa70ed36c84b125f55d/demo/plutodemo.gif" >
-<p align="center"><a href="https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto">🎈 <b>Pluto demo</b> inside your browser 🎈</a></p>
 
 ### Input
 
-A Pluto notebook is made up of small blocks of Julia code (_cells_) and together they form a notebook.
+A Neptune notebook is made up of small blocks of Julia code (_cells_) and together they form a notebook.
 
 Notebook cells can contain _arbitrary_ Julia code, and you can use external libraries. There are no code rewrites or wrappers, Neptune just looks at your code once before evaluation.
 
@@ -33,7 +31,6 @@ Your programming environment becomes interactive by splitting your code into mul
 
 In the example below, changing the parameter `A` and running the first cell will directly re-evaluate the second cell and display the new plot.
 
-<img alt="plotting screencap" src="https://user-images.githubusercontent.com/6933510/80637344-24ac0180-8a5f-11ea-82dd-813dbceca9c9.gif" width="50%">
 
 
 
@@ -53,13 +50,12 @@ For one tasty notebook 🥞 you will need:
 
 ### Installation
 
-<p align="center"><a href="https://www.youtube.com/watch?v=OOjKEgbt8AI">🎈 How to install <b>Julia & Pluto</b> (6 min) 🎈</a></p>
 
 Run Julia and add the package:
 
 ```julia
 julia> ]
-(v1.5) pkg> add Pluto
+(v1.5) pkg> add Neptune
 ```
 
 _Using the package manager for the first time can take up to 15 minutes - hang in there!_
@@ -67,13 +63,12 @@ _Using the package manager for the first time can take up to 15 minutes - hang i
 To run the notebook server:
 
 ```julia
-julia> import Pluto
+julia> import Neptune
 julia> Pluto.run()
 ```
 
-Pluto will open in your browser, and you can get started!
+Neptune will open in your browser, and you can get started!
 
-Questions? Have a look at the [FAQ](https://github.com/fonsp/Pluto.jl/wiki).
 
 ### To developers
 
@@ -83,7 +78,7 @@ Follow [these instructions](https://github.com/fonsp/Pluto.jl/blob/master/CONTRI
 
 ## License
 
-Pluto.jl is open source! Specifically, it is [MIT Licensed](https://github.com/fonsp/Pluto.jl/blob/master/LICENSE). The included sample notebooks have a more permissive license: the [Unlicense](https://github.com/fonsp/Pluto.jl/blob/master/sample/LICENSE). This means that you can use sample notebook code however you like - you do not need to credit us!
+Neptune.jl is open source! Specifically, it is [MIT Licensed](https://github.com/fonsp/Pluto.jl/blob/master/LICENSE). The included sample notebooks have a more permissive license: the [Unlicense](https://github.com/fonsp/Pluto.jl/blob/master/sample/LICENSE). This means that you can use sample notebook code however you like - you do not need to credit us!
 
 Pluto.jl is built by gluing together open source software:
 
