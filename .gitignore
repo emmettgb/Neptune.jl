@@ -9,3 +9,7 @@ test/frontend/node_modules
 test/frontend/artefacts/*
 !test/frontend/artefacts/.gitkeep
 .DS_Store
+
+sample/Basic.jl.backup2
+
+sample/Basic.jl.backup3
