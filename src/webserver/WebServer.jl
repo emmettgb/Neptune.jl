@@ -119,10 +119,6 @@ end
 Specifiy the [`Pluto.ServerSession`](@ref) to run the web server on, which includes the configuration. Passing a session as argument allows you to start the web server with some notebooks already running. See [`SessionActions`](@ref) to learn more about manipulating a `ServerSession`.
 """
 function run(session::ServerSession)
-    @warn """
-    This non-reactive version of Pluto is only meant as a one-time experiment.
-    """
-
     pluto_router = http_router_for(session)
     host = session.options.server.host
     port = session.options.server.port
@@ -243,11 +239,11 @@ function run(session::ServerSession)
         println("Go to $address in your browser to start writing ~ have fun!")
     end
     println()
-    println("Press Ctrl+C in this terminal to stop Pluto")
+    println("Press Ctrl+C in this terminal to stop Neptune")
     println()
 
     shutdown_server[] = () -> @sync begin
-        println("\n\nClosing Pluto... Restart Julia for a fresh session. \n\nHave a nice day! 🎈")
+        println("\n\nClosing Neptune... Restart Julia for a fresh session. \n\nHave a nice day! 🎈")
         @async swallow_exception(() -> close(serversocket), Base.IOError)
         # TODO: HTTP has a kill signal?
         # TODO: put do_work tokens back 

@@ -345,7 +345,7 @@ export const create_pluto_connection = async ({ on_unrequested_update, on_reconn
 }
 
 export const fetch_latest_pluto_version = () => {
-    return fetch("https://api.github.com/repos/fonsp/Pluto.jl/releases", {
+    return fetch("https://api.github.com/repos/compleathorseplayer/Neptune.jl/releases", {
         method: "GET",
         mode: "cors",
         cache: "no-cache",
