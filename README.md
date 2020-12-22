@@ -5,7 +5,7 @@
 
 ### Neptune
 
-Neptune is a(n) (unauthorised) fork of the Notebook platform Pluto *by Fons van der Plas and others), for those (like Data Scientists) who have requirements which conflict with the reactive aspect of Pluto.   It is hope that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Those with smaller applications or which do not load external scripts, and who are unfamiliar with Pluto should first try it.
+Neptune is a(n) (unauthorised) fork of the Notebook platform Pluto (by Fons van der Plas and others), for those (like Data Scientists) who have requirements which conflict with the reactive aspect of Pluto.   It is hope that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Those with smaller applications or which do not load external scripts, and who are unfamiliar with Pluto should first try it.
 
 _Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
 
@@ -31,7 +31,7 @@ Like in Pluto, your notebooks are **saved as pure Julia files** ([sample](https:
 
 Your programming environment becomes interactive by splitting your code into multiple cells! Changing one cell only affects that cell, giving you a fast and fun way to experiment with your model in a piecewise manner.
 
-br >
+<br >
 
 # Let's do it!
 
@@ -77,7 +77,7 @@ Neptune.jl is open source! Specifically, it is [MIT Licensed](https://github.com
 Neptune.jl is built by gluing together open source software:
 
 -   `Julia` - [license](https://github.com/JuliaLang/julia/blob/master/LICENSE.md)
--    `Pluto` - [license](https://github.com/codemirror/CodeMirror/blob/master/LICENSE
+-   `Pluto` - [license](https://github.com/codemirror/CodeMirror/blob/master/LICENSE
 -   `CodeMirror` - [license](https://github.com/codemirror/CodeMirror/blob/master/LICENSE)
 -   `HTTP.jl` - [license](https://github.com/JuliaWeb/HTTP.jl/blob/master/LICENSE.md)
 -   `MsgPack.jl` - [license](https://github.com/JuliaIO/MsgPack.jl)
