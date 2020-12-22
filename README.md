@@ -91,7 +91,7 @@ Your notebook files are _yours_, you do not need to credit us. Have fun!
 
 ## From the authors
 
-We are happy to say that Pluto.jl runs smoothly for most users, and is **ready to be used in your next project**!
+We are happy to say that Neptune.jl runs smoothly for most users, and is **ready to be used in your next project**!
 
 The Neptune project is an ambition to make Pluto more accessible to areas liks Data Science and Machine Learning. We agree with the developers of Pluto in the belief that scientific computing can be a lot simpler and more accessible. If you feel the same, give Neptune a try! We would love to hear what you think. 😊
 
