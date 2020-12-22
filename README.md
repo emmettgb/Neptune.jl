@@ -5,7 +5,7 @@ This package is a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl) created 
 
 ### Neptune
 
-Neptune is a(n) (unauthorised) fork of the Notebook platform Pluto (Pluto was written by others who choose not to be named), for those (like Data Scientists) who have requirements which conflict with the reactive aspect of Pluto.   It is hope that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Those with smaller applications or which do not load external scripts, and who are unfamiliar with Pluto should first try it.
+Neptune is a(n) (unauthorised) fork of the Notebook platform Pluto (the latter was written by others), for those (like Data Scientists) who have requirements which conflict with the reactive aspect of Pluto.   It is hope that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Those with smaller applications or which do not load external scripts, and who are unfamiliar with Pluto should first try it.
 
 _Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
 
@@ -95,6 +95,6 @@ We are happy to say that Neptune.jl runs smoothly for most users, and is **ready
 
 The Neptune project is an ambition to make Pluto more accessible to areas liks Data Science and Machine Learning. We agree with the developers of Pluto in the belief that scientific computing can be a lot simpler and more accessible. If you feel the same, give Neptune a try! We would love to hear what you think. 😊
 
-Finally, we would like to thank Fons van der Plas for his work and talent in creating the beautiful project that is Pluto.jl, and to apologise for any conflicts with his vision.   There is no attempt to claim credit here - any successes you may have with Neptune are due to the great work of he and his co-developers on Pluto.
+Finally, we would like to thank the developers of Pluto for their work and talent in creating the beautiful project that is Pluto.jl, and to apologise for any conflicts with their vision.   There is no attempt to claim credit here - any successes you may have with Neptune are due to the great work of the developers on Pluto.
 
 _Created by [**David Edelman**](https://github.com/compleathorseplayer) . Inspired by Pluto.jl_
