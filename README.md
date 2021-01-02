@@ -52,6 +52,12 @@ Run Julia and add the package:
 julia> ]
 (v1.5) pkg> add Neptune
 ```
+or
+
+```julia
+julia> ]
+(v1.5) pkg> add https://github.com/compleathorseplayer/Neptune.jl
+```
 
 _Using the package manager for the first time can take up to 15 minutes - hang in there!_
 
