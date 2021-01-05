@@ -1,11 +1,12 @@
 
 This package is a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl) created by [Fons van der Plas](https://github.com/fonsp)
+and Nicholas Bochenski
 <br>
 <br>
 
 ### Neptune
 
-Neptune is a(n) (unauthorised) fork of the Notebook platform Pluto (the latter was written by others), for those (like Data Scientists) who have requirements which conflict with the reactive aspect of Pluto.   It is hope that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Those with smaller applications or which do not load external scripts, and who are unfamiliar with Pluto should first try it.
+Neptune is a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated).   It is hoped that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Users with projects or applications whcih are *not* logically sequential or linear in execution/design, or which do not load external scripts, should first try Pluto.
 
 _Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
 
@@ -34,6 +35,10 @@ Your programming environment becomes interactive by splitting your code into mul
 <br >
 
 # Let's do it!
+
+### A note on Neptune vs Pluto
+
+Regrettably, the creator of Pluto, Fons van der Plas, has *forbidden* us from from communicating with anyone involved with Pluto and (presuably) forbidden them from communicating with us (he has thrown a 'Donald', in other words).    We find such attitude and behaviour disappointing, and counter to the spirit of 'open source'.   We invite comments, contributions, and requests for Neptune, but warn you to engage only if you are not intimidated by potential for the 'Wrath of Fons'.
 
 ### Ingredients
 
