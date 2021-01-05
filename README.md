@@ -38,7 +38,7 @@ Your programming environment becomes interactive by splitting your code into mul
 
 ### A note on Neptune vs Pluto
 
-Regrettably, the creator of Pluto, Fons van der Plas, has *forbidden* us from from communicating with anyone involved with Pluto and (presuably) forbidden them from communicating with us (he has thrown a 'Donald', in other words).    We find such attitude and behaviour disappointing, and counter to the spirit of 'open source'.   We invite comments, contributions, and requests for Neptune, but warn you to engage only if you are not intimidated by potential for the 'Wrath of Fons'.
+Regrettably, the creator of Pluto, Fons van der Plas, has *forbidden* us from from communicating with anyone involved with Pluto and has also (apparently) forbidden them from communicating with us (he has thrown a 'Donald', in other words).    We find such attitude and behaviour disappointing, and counter to the spirit of free and open debate and of 'open source' itself.   We invite comments, contributions, and requests for the improvement of Neptune, but feel bound to warn of (and take no responsibility for) any potential 'Wrath of Fons' which may result.
 
 ### Ingredients
 
