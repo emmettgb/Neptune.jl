@@ -45,7 +45,7 @@ Regrettably, the creator of Pluto, Fons van der Plas, has '*forbidden*' us from 
 
 We find such attitude and behaviour disappointing, and counter to the spirit of free and open debate and of 'open source' itself.   
 
-In any case, we invite comments, contributions, and requests for the improvement of Neptune, but feel bound to warn of (and take no responsibility for) 'political' ramifications.   Having said this, we would like to reiterate our appreciation of the great work done by the Pluto team, and express our support for their ongoing work.
+In any case, we invite comments, contributions, and requests for the improvement of Neptune, but feel bound to warn of (and take no responsibility for) any 'political' ramifications.   Having said this, we would like to reiterate our appreciation of the great work done by the Pluto team, and express our support for their ongoing work.
 
 ### Ingredients
 
