@@ -92,8 +92,8 @@ begin
      println("Hello World Again!")
 end
  ```    
-Please note also that some of the printout will appear on the REPL where you invoked Neptune (there
-are utilities described on the Pluto site to print more of it in the Notebook)
+Please note also that some of the printout from some packages (like Flux) will appear on the REPL where you 
+invoked Neptune (there are utilities described on the Pluto site to print more of it in the Notebook)
 
 ### To developers
 
