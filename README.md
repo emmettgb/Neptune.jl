@@ -1,6 +1,5 @@
 
-This package is a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl) created by [Fons van der Plas](https://github.com/fonsp)
-and Nicholas Bochenski
+This package is a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl) 
 <br>
 <br>
 
