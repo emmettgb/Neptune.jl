@@ -1,5 +1,5 @@
 
-This package is a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl) 
+This package is based on a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl) 
 <br>
 <br>
 
