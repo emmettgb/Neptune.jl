@@ -13,7 +13,7 @@ _Writing a notebook is not just about writing the final document — Neptune emp
 
 -   **_lightweight_** - Neptune is based on the package Pluto. Both are written in pure Julia and is easy to install.
 -   **_simple_** - no hidden workspace state; friendly UI.
--   **_non-reactive_** - only executes the cells you choose (like Jupyter)
+-   **_sequential_** - only executes the cells you choose (like Jupyter notebooks)
 
 ### Input
 
