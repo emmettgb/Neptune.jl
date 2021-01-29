@@ -82,16 +82,8 @@ julia> Neptune.run()
 
 Neptune will open in your browser, and you can get started!
 
-Cells will execute like Jupyter Notebooks, except (for now) the default is a single line per cell.
+Cells will execute like Jupyter Notebooks.
 
-For Multi-line cells, begin the cell by 'begin' and end the cell by 'end', like (for example)
-
-```
-begin
-     println("Hello World!")
-     println("Hello World Again!")
-end
- ```    
 Please note also that some of the printout from some packages (like Flux) will appear on the REPL where you 
 invoked Neptune (there are utilities described on the Pluto site to print more of it in the Notebook)
 
