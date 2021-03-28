@@ -11,7 +11,6 @@ Unlike Jupyter, saved Neptune files are executeable as Julia scripts, so Neptune
 
 In terms of position within the Julia Community, the relationship between Neptune and Pluto might be thought of as analogous to Gnome and KDE in the Linux community - in open source, when different developers and users and researchers have different vision and priorities, forks are the natural outcome.
 
-Neptune is an experiment, offered with a hope for progress and increased convenience.
 
 
 **Explore models and share results** in a notebook that is
@@ -19,6 +18,8 @@ Neptune is an experiment, offered with a hope for progress and increased conveni
 -   **_lightweight_** - Neptune is based on the package Pluto. Both are written in pure Julia and is easy to install.
 -   **_simple_** - no hidden workspace state; friendly UI.
 -   **_sequential_** - only executes the cells you choose (like Jupyter notebooks)
+
+Neptune is an experiment, offered with a hope for progress and increased convenience.
 
 ### Input
 
