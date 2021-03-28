@@ -102,10 +102,6 @@ Your notebook files are _yours_, you do not need to credit us. Have fun!
 
 ## From the authors
 
-We are happy to say that Neptune.jl runs smoothly for most users, and is **ready to be used in your next project**!
-
-The Neptune project is an ambition to make Pluto more accessible to areas liks Data Science and Machine Learning. We agree with the developers of Pluto in the belief that scientific computing can be a lot simpler and more accessible. If you feel the same, give Neptune a try! We would love to hear what you think. 😊
-
-Finally, we would like to thank the developers of Pluto for their work and talent in creating the beautiful project that is Pluto.jl, and to apologise for any conflicts with their vision.   There is no attempt to claim credit here - any successes you may have with Neptune are due to the great work of the developers on Pluto.
+We would like to thank the developers of Pluto for their work and talent in creating the beautiful project that is Pluto.jl, and to apologise for any conflicts with their vision.   There is no attempt to claim credit here - any successes you may have with Neptune are largely due to the great work of the developers on Pluto.
 
 _Created by [**David Edelman**](https://github.com/compleathorseplayer) . Inspired by Pluto.jl_
