@@ -5,9 +5,14 @@ This package is based on a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl)
 
 ### Neptune
 
-Neptune originated as a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated).   It may turn out to be that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Users with projects or applications whcih are *not* logically sequential or linear in execution/design, or which do not load external scripts, should first try Pluto.
+Neptune originated as a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated), and instead prefer *linear*, *sequential* execution.
 
-_Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
+Unlike Jupyter, saved Neptune files are executeable as Julia scripts, so Neptune may also be seen as a 'one-stop' IDE for developing and debugging script code, which cannot be said of either Jupyter (which separates notebooks and scripts) or Pluto (for which notebook execution would not necessarily correspond to script execution).
+
+In terms of position within the Julia Community, the relationship between Neptune and Pluto might be thought of as analogous to Gnome and KDE in the Linux community - in open source, when different developers and users and researchers have different vision and priorities, forks are the natural outcome.
+
+Neptune is an experiment, offered with a hope for progress and increased convenience.
+
 
 **Explore models and share results** in a notebook that is
 
@@ -27,33 +32,8 @@ Like in Pluto, your notebooks are **saved as pure Julia files** ([sample](https:
 
 <br >
 
-### Interactivity
 
-Your programming environment becomes interactive by splitting your code into multiple cells! Changing one cell only affects that cell, giving you a fast and fun way to experiment with your model in a piecewise manner.
 
-<br >
-
-# Let's do it!
-
-### A note on Neptune and Pluto
-
-Neptune is a fork of Pluto which executes *sequentially* one cell at a time, rather than *reactively*, in Pluto.   According to the developers,
-allowing a sequential mode is not in the near-term development path of Pluto - Hence Neptune.
-
-Regrettably, the developers of Pluto are not pleased with the presence of Neptune option for users.
-
-Naturally we are disappointed by this, as it seems to be in the spirit of free and open debate and of 'open source' itself.   
-However, we respectfully reserve our right to disagree with the enforcement of reactive execution.
-
-In any case, we invite comments, contributions, and requests for the improvement of Neptune, but feel bound to warn of (and take no responsibility for) any 'political' ramifications.   Having said this, we would like to reiterate our appreciation of the great work done by the Pluto team, and express our support for their ongoing work.
-
-### Ingredients
-
-For one tasty notebook 🥞 you will need:
-
--   **Julia** v1.0 or above, _v1.5 is fastest_
--   **Linux**, **macOS** or **Windows**, _Linux and macOS will work best_
--   Mozilla **Firefox** or Google **Chrome**, be sure to get the latest version
 
 ### Installation
 
@@ -76,7 +56,7 @@ _Using the package manager for the first time can take a few minutes - hang in t
 To run the notebook server:
 
 ```julia
-julia> import Neptune
+julia> using Neptune
 julia> Neptune.run()
 ```
 
