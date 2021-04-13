@@ -153,6 +153,32 @@ export const Cell = ({
             >
                 <span></span>
             </button>
+
+            <${RunArea}
+                onClick=${() => {
+                    if (running || queued) {
+                        requests.interrupt_remote(cell_id)
+                    } else {
+                        const friends = selected_friends(cell_id)
+
+                        if (friends.length == 1) {
+                            requests.change_remote_cell(cell_id, local_code.body)
+                        } else {
+                            requests.set_and_run_multiple(friends)
+                        }
+                    }
+                }}
+                runtime=${localTimeRunning || runtime}
+            />
+            <button
+                onClick=${() => {
+                    requests.add_remote_cell(cell_id, "after")
+                }}
+                class="add_cell after"
+                title="Add cell"
+            >
+                <span></span>
+            </button>
             <${CellOutput} ...${output} all_completed_promise=${all_completed_promise} requests=${requests} cell_id=${cell_id} />
             ${show_input &&
             html`<${CellInput}
@@ -186,31 +212,6 @@ export const Cell = ({
                 cell_id=${cell_id}
                 notebook_id=${notebook_id}
             />`}
-            <${RunArea}
-                onClick=${() => {
-                    if (running || queued) {
-                        requests.interrupt_remote(cell_id)
-                    } else {
-                        const friends = selected_friends(cell_id)
-
-                        if (friends.length == 1) {
-                            requests.change_remote_cell(cell_id, local_code.body)
-                        } else {
-                            requests.set_and_run_multiple(friends)
-                        }
-                    }
-                }}
-                runtime=${localTimeRunning || runtime}
-            />
-            <button
-                onClick=${() => {
-                    requests.add_remote_cell(cell_id, "after")
-                }}
-                class="add_cell after"
-                title="Add cell"
-            >
-                <span></span>
-            </button>
         </pluto-cell>
     `
 }
