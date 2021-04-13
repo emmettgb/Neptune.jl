@@ -146,7 +146,7 @@ export const Cell = ({
             <pluto-trafficlight></pluto-trafficlight>
             <button
                 onClick=${() => {
-                    requests.add_remote_cell(cell_id, "before")
+                    requests.add_remote_cell(cell_id, "after")
                 }}
                 class="add_cell before"
                 title="Add cell"
